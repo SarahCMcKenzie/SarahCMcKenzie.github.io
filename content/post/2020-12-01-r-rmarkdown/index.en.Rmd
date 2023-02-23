@@ -34,4 +34,11 @@ pie(
   col = c('#0292D8', '#F7EA39', '#C4B632'),
   init.angle = -50, border = NA
 )
-```
+blogdown:::create_index()
+
+  blogdown::edit_draft(c(
+  "content/privacy.md",
+  "content/terms.md"
+  ))
+blogdown::config_Rprofile()
+blogdown::config_Rprofile()
